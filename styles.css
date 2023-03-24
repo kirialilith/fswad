@@ -653,6 +653,7 @@ hr {
     color: #7da1cf;
     color: #86a0e6;
     background-color: rgb(36 37 38 / 95%);
+    background-color: rgb(36 37 38 / 85%);
     border-color: transparent;
 }
 
@@ -715,6 +716,7 @@ hr {
     background-color: rgb(62 63 68);
     background-color: rgb(64 65 70);
     background-color: rgb(69 71 79);
+
     background-color: rgb(64 65 70);
     /* background-color: rgb(61 62 68); */
     color: rgba(210, 214, 224, 0.7);
@@ -722,6 +724,8 @@ hr {
     color: #acadb6;
     color: rgb(255 255 255 / 60%);
     color: rgb(255 255 255 / 50%);
+    /* color: #86a0e6; */
+
     cursor: pointer;
     border-radius: 20px;
     display: block;
@@ -762,6 +766,9 @@ hr {
     /* background-color: rgb(68 69 74); */
     background-color: rgb(70 71 78);
     background-color: rgb(71 72 80);
+
+    background-color: rgb(75 76 85);
+    background-color: rgb(73 74 82);
     
     /* background-color: #53555e; */
     color: rgba(210, 214, 224, 1);
@@ -769,6 +776,10 @@ hr {
     color: #bfc0ca;
     color: rgb(255 255 255 / 60%);
     color: rgb(255 255 255 / 80%);
+
+    /* color: #86a0e6; */
+    /* color: #92afff; */
+
     /* color: #86a0e6; */
 }
 
@@ -808,6 +819,9 @@ hr {
     /* color: rgb(255 255 255 / 60%); */
     background-color: #7792dc;
     background-color: rgba(134, 160, 230, 0.7);
+    background-color: #8ea8f0;
+    background-color: #97b3ff;
+    background-color: #92afff;
 }
 
 .main-content-menu__item i {
@@ -854,12 +868,20 @@ hr {
 .main-content-menu.sidebar .main-content-menu__item.active {
     font-weight: 500;
     background-color: rgb(37 38 40);
-    background-color: rgb(36 37 38 / 95%);
+    background-color: rgb(30, 30, 30);
+    background-color: rgb(36 37 38 / 85%);
+    /* background-color: rgb(35, 35, 35); */
+    /* color: #86a0e6; */
 }
 
 .main-content-menu.sidebar .main-content-menu__item.active:hover {
     background-color: rgb(64 65 70);
     background-color: rgb(30, 31, 33);
+    background-color: rgb(20, 20, 20);
+    background-color: rgb(30, 30, 30);
+    background-color: rgb(21 23 20 / 70%);
+    /* background-color: rgb(36 37 38 / 85%); */
+    /* color: #92afff; */
 }
 
 .main-content-menu.sidebar .main-content-menu__item i {
@@ -976,6 +998,8 @@ article p:last-child {
     background-color: rgb(17 19 18 / 85%);
     background-color: rgb(18 18 14 / 85%);
     background-color: rgb(18 18 14 / 80%);
+    background-color: rgb(18 18 14 / 75%);
+    /* background-color: rgb(18 20 18 / 80%); */
 
     color: rgb(255 255 255 / 60%);
     color: #86a0e6;
@@ -987,13 +1011,14 @@ article img {
     border-radius: 12px;
     margin-bottom: 22px;
     filter: brightness(65%);
-    filter: brightness(30%);
+    /* filter: brightness(40%); */
     opacity: .8;
     transition: all .2s ease;
 }
 
 article img:hover {
     opacity: .8;
+    opacity: 1;
     filter: brightness(80%);
 }
 
@@ -1102,6 +1127,8 @@ article iframe:last-child {
 .collapse-content {
     background-color: #3c3f46;
     background-color: rgb(36 38 40 / 30%);
+    background-color: rgb(20 22 20 / 70%);
+    background-color: rgb(20 21 18 / 70%);
     color: rgb(189 194 211 / 80%);
     margin-bottom: 24px;
     border: none;
@@ -1122,6 +1149,9 @@ article .collapse-content:last-child {
     background-color: #555863;
     background-color: rgb(18 19 14 / 60%);    
     background-color: rgb(18 19 10 / 55%);
+    background-color: rgb(18 18 10 / 50%);
+    background-color: rgb(18 18 14 / 52%);    
+    background-color: rgb(18 19 14 / 50%);    
     border-radius: 14px;
     margin: 1.5rem 0;
     padding: 1.75rem;
@@ -1133,6 +1163,7 @@ article .collapse-content:last-child {
     background-color: rgb(24 24 20 / 90%);
     background-color: rgb(18 19 14 / 80%);
     background-color: rgb(18 19 14 / 70%);
+    background-color: rgb(20 21 18 / 70%);
     border-radius: 14px;
     margin: 1.5rem 0;
     padding: 1.75rem;
@@ -1235,7 +1266,9 @@ article .collapse-content:last-child {
     background-color: #3c3f46;
     background-color: rgb(21 21 21 / 35%);
     background-color: rgb(21 21 21 / 45%);
-    border-radius: 8px;
+    background-color: rgb(21 21 21 / 35%);
+    background-color: rgb(30 31 30);
+    border-radius: 7px;
 }
 
 .server-member:hover server-member__pfp {
@@ -1654,11 +1687,13 @@ p.ref {
     color: #7674ff;
     color: #7e7eff;
     /* color: #8289ff; */
+    color: #86a0e6;
 }
 .htmlattr {
     color: #55c2c8;
     color: #55c8be;
     color: #55bba3;
+    color: #5ec8af;
 }
 .cssattr {
     color: #ff8888;
@@ -1668,12 +1703,14 @@ p.ref {
 }
 
 .htmldoc {
-    color: #ffcd90;
+    color: #ffcd90;    
+    color: #ffdd9c;
 }
 .htmlvalue, .css-selector {
     color: #ebaaf4;
     color: #ed80d7;
     color: #d589df;
+    color: #f89ee6;
 }
 .css-selector {
     color: #47c8ff;
